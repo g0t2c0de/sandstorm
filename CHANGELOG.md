@@ -1,3 +1,49 @@
+### v0.252 (2019-09-08)
+- Fixed bug introduced in 0.251 causing development apps registered via `spk dev` to report "This grain's app package is not installed".
+
+### v0.251 (2019-09-02)
+- Added functionality to allow mass transferring of grains between servers. Click the "Mass transfer..." button above the grains list to initiate a transfer.
+- Updated dependencies.
+
+### v0.250 (2019-08-10)
+- Fixed multiple problems where a user who has access to a grain might unexpectedly be assigned an all-new identity within the grain, especially after backup/restore. This should make it more practical to move shared grains between servers using backup/restore. [See the pull request for a complete explanation.](https://github.com/sandstorm-io/sandstorm/pull/3148)
+- Updated dependencies.
+
+### v0.249 (2019-07-10) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.248 (2019-06-09) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.247 (2019-05-11) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.246 (2019-04-13) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.245 (2019-03-16) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.244 (2019-02-09) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.243 (2019-01-12) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.242 (2018-12-20) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.241 (2018-11-19) [bugfixes]
+- Updated dependencies. (No other changes.)
+
+### v0.240 (2018-10-20) [bugfixes]
+- Updated dependencies.
+- Added some clarification messages to Oasis UI regarding the [recent discontinuation of the free plan](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan).
+
+### v0.239 (2018-09-22)
+- Updated dependencies.
+- Prepared Oasis payments code for [upcoming change to discontinue free plan](https://sandstorm.io/news/2018-08-27-discontinuing-free-plan). (Does not affect self-hosted servers.)
+
 ### v0.238 (2018-08-25) [bugfixes]
 - Updated dependencies. (No other changes.)
 
